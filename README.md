@@ -1,5 +1,5 @@
 # mawaddah-ai-AI-Path-Task1---Smart-Methods-Course
-this repository contains tasks of AI learning paths with smart methods
+this repository contains task 1 files of AI learning paths - smart methods
 
 steps :
 1- by using teachable machine I trained an AI model to define if the picture represents Katniss Everdeen or Peeta Mellark (the hunger game’s main character) 
