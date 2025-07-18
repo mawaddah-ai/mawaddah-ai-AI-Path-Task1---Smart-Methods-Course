@@ -1,6 +1,7 @@
 # mawaddah-ai-AI-Path-Task1---Smart-Methods-Course
 this repository contains task 1 files of AI learning paths - smart methods
 
+TASK ONE :
 steps :
 1- by using teachable machine I trained an AI model to define if the picture represents Katniss Everdeen or Peeta Mellark (the hunger game’s main character) 
 
@@ -24,3 +25,42 @@ steps :
   2.4-entering the paths of test pictures to the output terminal 
 
   2.5-checking results
+
+
+## TASK TWO: Real-Time Face Detection Using OpenCV
+
+### Steps:
+
+**1- Installing the required libraries and setting up the environment**  
+1.1- Install Python from the official website  
+1.2- Install OpenCV library using the terminal using `pip install opencv-python`  
+1.3- *(Optional)* create a virtual environment using `python -m venv venv`  
+1.4- Open the project in PyCharm or any Python IDE
+
+**2- Preparing the model for detecting human faces**  
+2.1- Download the `haarcascade_frontalface_default.xml` model file from OpenCV GitHub  
+2.2- Place the XML file in the same folder as the Python script  
+2.3- Prepare a video file that contains human faces  
+2.4- Update the video file path in the Python code
+
+**3- Writing the Python code using OpenCV to detect faces**  
+3.1- Use OpenCV to load the XML cascade file  
+3.2- Read the video using `cv2.VideoCapture()`  
+3.3- Convert each frame to grayscale for processing  
+3.4- Detect the faces using `detectMultiScale()`  
+3.5- Draw green rectangles around detected faces  
+3.6- Display the output video with rectangles on faces  
+3.7- Exit the window when pressing the 'q' key
+
+**4- Testing the result**  
+4.1- Run the Python script from PyCharm  
+4.2- The video will open in a window  
+4.3- Observe the detection of faces in real-time  
+4.4- If detection fails, try with clearer or different video  
+4.5- Make sure the XML and video file paths are correct
+
+**5- Final result**  
+- Green rectangles appear around each detected face  
+- Window exits on key press `q`  
+- Real-time face detection achieved using OpenCV and a pretrained Haar cascade
+
