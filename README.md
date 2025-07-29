@@ -1,4 +1,5 @@
 # mawaddah-ai-AI-Path-Task1---Smart-Methods-Course
+# all AI tasks will be in this repository
 this repository contains task 1 files of AI learning paths - smart methods
 
 TASK ONE :
@@ -64,3 +65,31 @@ steps :
 - Window exits on key press `q`  
 - Real-time face detection achieved using OpenCV and a pretrained Haar cascade
 
+# TASK THREE 
+# Steps:
+
+1- Transcribing audio using Vosk speech recognition model
+
+1.1 Loading the WAV audio file (Mono, 16kHz PCM)
+1.2 Loading the Vosk pre-trained speech recognition model
+1.3 Processing audio in chunks and converting speech to text
+1.4 Handling errors if audio format or file is incorrect
+1.5 Retrieving the full transcription text
+
+2- Generating response text using Cohere language model API
+
+2.1 Setting up Cohere API client with API key
+2.2 Sending the transcribed text as prompt to generate a response
+2.3 Handling API errors and invalid model issues
+2.4 Receiving and extracting generated text from response
+
+3- Converting the generated text to speech audio
+
+3.1 Using Google Text-to-Speech (gTTS) library to synthesize audio
+3.2 Saving the generated speech to an MP3 file
+3.3 Handling any exceptions during audio generation
+
+4- Playing the generated audio on Windows
+
+4.1 Using system command to launch Windows Media Player silently
+4.2 Optional: skipping playback if not needed
