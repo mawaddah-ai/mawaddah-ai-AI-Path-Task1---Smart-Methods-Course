@@ -65,7 +65,13 @@ steps :
 - Window exits on key press `q`  
 - Real-time face detection achieved using OpenCV and a pretrained Haar cascade
 
-## TASK THREE - FOUR FILES  
+## TASK THREE 
+FOUR FILES  
+- Converting.py
+- converted_audio.wav
+- terminal.txt
+- response_audio.mp3
+- 
 # Steps:
 
 1- Transcribing audio using Vosk speech recognition model
