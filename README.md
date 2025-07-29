@@ -2,7 +2,7 @@
 # all AI tasks will be in this repository
 this repository contains task 1 files of AI learning paths - smart methods
 
-TASK ONE :
+## TASK ONE :
 steps :
 1- by using teachable machine I trained an AI model to define if the picture represents Katniss Everdeen or Peeta Mellark (the hunger game’s main character) 
 
@@ -65,7 +65,7 @@ steps :
 - Window exits on key press `q`  
 - Real-time face detection achieved using OpenCV and a pretrained Haar cascade
 
-# TASK THREE 
+## TASK THREE - FOUR FILES  
 # Steps:
 
 1- Transcribing audio using Vosk speech recognition model
