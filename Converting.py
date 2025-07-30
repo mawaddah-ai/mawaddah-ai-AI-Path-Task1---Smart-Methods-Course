@@ -6,11 +6,9 @@ from gtts import gTTS
 import os
 import sys
 
-# Paths ثابتة
 audio_path = r"C:\Users\mawad\Downloads\converted_audio.wav"
 model_path = r"C:\Users\mawad\vosk-model-en-us-0.22\vosk-model-en-us-0.22"
 
-# API Key
 cohere_api_key = "iwtT1GtV9RWPwoZbyTaa7YCKOne0NhGrcsjIlXel"
 
 def transcribe_audio(audio_path, model_path):
