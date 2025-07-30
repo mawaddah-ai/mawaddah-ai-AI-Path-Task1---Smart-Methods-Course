@@ -71,9 +71,8 @@ FOUR FILES
 - converted_audio.wav
 - terminal.txt
 - response_audio.mp3
-- 
+# Note: The API key was removed from this project for security reasons.
 # Steps:
-
 1- Transcribing audio using Vosk speech recognition model
 
 1.1 Loading the WAV audio file (Mono, 16kHz PCM)
