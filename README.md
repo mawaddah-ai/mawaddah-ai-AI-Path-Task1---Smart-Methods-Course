@@ -103,10 +103,10 @@ FOUR FILES
 ## TASK four 
 # files :
 - flowchart.pdf
--Linux_Task.py
--test_file.txt
+- Linux_Task.py
+- test_file.txt
 - inux_Task_terminal.txt
-- 
+
 # 1- Understanding File Permissions
 The file permission system in Linux/Unix is composed of three types of access:
 
