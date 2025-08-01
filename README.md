@@ -101,6 +101,12 @@ FOUR FILES
 
 
 ## TASK four 
+# files :
+- flowchart.pdf
+-Linux_Task.py
+-test_file.txt
+- inux_Task_terminal.txt
+- 
 # 1- Understanding File Permissions
 The file permission system in Linux/Unix is composed of three types of access:
 
@@ -119,4 +125,13 @@ Group – users who belong to the file's group
 Others – all other users on the system
 
 # 2- Flowchart , uploaded in files section 
-# 3- 
+# 3- Changing File Permissions Using chmod in Python
+In this project, we used a Python script to change the permissions of a specific file to rwxrwxr-x (which is equivalent to 775 in numeric form).
+The script first checks whether the file exists. If it does, it uses the os.chmod() function to modify the file’s permissions.
+Since Windows does not handle permissions in the same way as Linux, we also used the icacls command to display the current permissions (Access Control List) of the file.
+
+Result:
+The owner and the group have read, write, and execute permissions (rwx).
+Others have read and execute permissions only (r-x).
+
+
