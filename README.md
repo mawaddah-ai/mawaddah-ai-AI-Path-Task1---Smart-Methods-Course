@@ -98,3 +98,25 @@ FOUR FILES
 
 4.1 Using system command to launch Windows Media Player silently
 4.2 Optional: skipping playback if not needed
+
+
+## TASK four 
+# 1- Understanding File Permissions
+The file permission system in Linux/Unix is composed of three types of access:
+
+r = read (allows viewing the contents of the file)
+
+w = write (allows modifying the file)
+
+x = execute (allows running the file as a program or script)
+
+These permissions are assigned to three categories of users:
+
+User – the owner of the file
+
+Group – users who belong to the file's group
+
+Others – all other users on the system
+
+# 2- Flowchart , uploaded in files section 
+# 3- 
