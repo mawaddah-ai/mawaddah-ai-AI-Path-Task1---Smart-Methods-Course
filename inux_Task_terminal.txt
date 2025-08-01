@@ -1,0 +1,32 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\mawad> cd "C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject"
+PS C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject> python Linux_Task.py
+Current working directory: C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject
+Permissions of C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject\test_file.txt have been changed to rwxrwxr-x (775)
+C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject\test_file.txt NT AUTHORITY\SYSTEM:(I)(F)
+                                                                      BUILTIN\Administrators:(I)(F)
+                                                                      MAWADDAH\mawad:(I)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+PS C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject> echo "hello world" > test_file.txt
+PS C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject> python Linux_Task.py
+Current working directory: C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject
+Permissions of C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject\test_file.txt have been changed to rwxrwxr-x (775)
+C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject\test_file.txt NT AUTHORITY\SYSTEM:(I)(F)
+                                                                      BUILTIN\Administrators:(I)(F)
+                                                                      MAWADDAH\mawad:(I)(F)
+
+Successfully processed 1 files; Failed processing 0 files
+PS C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject> Get-Acl test_file.txt
+
+
+    Directory: C:\Users\mawad\PycharmProjects\Linux_Task\pythonProject
+
+
+Path          Owner          Access
+----          -----          ------
+test_file.txt MAWADDAH\mawad NT AUTHORITY\SYSTEM Allow  FullControl...
